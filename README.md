@@ -4,9 +4,8 @@
 
 # AiSOC
 
-An open-source, self-hostable AI Security Operations Center (SOC). The agent's prompts, tool calls, and rationale are logged step-by-step and replayable. MIT-licensed.
+An AI-powered Security Operations Center (SOC). The agent's prompts, tool calls, and rationale are logged step-by-step and replayable.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-22c55e.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Version](https://img.shields.io/badge/version-7.7.0-f59e0b?style=flat-square)](CHANGELOG.md)
 [![CI](https://img.shields.io/github/actions/workflow/status/yashvinthan/aisoc/ci.yml?branch=main&label=CI&style=flat-square)](https://github.com/yashvinthan/aisoc/actions/workflows/ci.yml)
 [![CodeQL](https://img.shields.io/github/actions/workflow/status/yashvinthan/aisoc/codeql.yml?branch=main&label=CodeQL&style=flat-square)](https://github.com/yashvinthan/aisoc/actions/workflows/codeql.yml)
@@ -69,7 +68,6 @@ The orchestrator is a modular LangGraph state machine in [`services/agents/`](se
 
 | Capability | AiSOC | Wazuh | Splunk ES | Closed-source AI SOC |
 |---|---|---|---|---|
-| Open-source license | MIT | GPL-2 | proprietary | proprietary |
 | Self-hostable | yes | yes | enterprise-only | cloud-only |
 | Autonomous AI investigation | LangGraph (4 agents) | no | partial | yes |
 | Agent decision audit trail | Replayable Investigation Ledger | n/a | n/a | not published |
@@ -185,10 +183,6 @@ SDKs available for Python, TypeScript, and Go. Details in [`apps/docs/docs/plugi
 - **Security Policy:** [`SECURITY.md`](SECURITY.md)
 
 ---
-
-## License
-
-[MIT](LICENSE) — © 2024–present AiSOC Project Contributors.
 
 <div align="center">
 
