@@ -1,0 +1,509 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary "Application sidebar" [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e9]:
+          - text: AiSOC
+          - paragraph [ref=e10]: open-source
+        - generic [ref=e13]: Live
+      - navigation "Main navigation" [ref=e14]:
+        - list [ref=e16]:
+          - listitem [ref=e17]:
+            - link "Dashboard" [ref=e18] [cursor=pointer]:
+              - /url: /dashboard
+          - listitem [ref=e23]:
+            - link "SOC Insights" [ref=e24] [cursor=pointer]:
+              - /url: /dashboards/soc-insights
+        - generic [ref=e29]:
+          - paragraph [ref=e30]: Threat Operations
+          - list [ref=e31]:
+            - listitem [ref=e32]:
+              - link "Alerts" [ref=e33] [cursor=pointer]:
+                - /url: /alerts
+            - listitem [ref=e38]:
+              - link "Investigation Queue" [ref=e39] [cursor=pointer]:
+                - /url: /queue
+            - listitem [ref=e44]:
+              - link "Cases" [ref=e45] [cursor=pointer]:
+                - /url: /cases
+            - listitem [ref=e50]:
+              - link "Hunt" [ref=e51] [cursor=pointer]:
+                - /url: /hunt
+            - listitem [ref=e56]:
+              - link "Explore" [ref=e57] [cursor=pointer]:
+                - /url: /explore
+            - listitem [ref=e62]:
+              - link "Detection Rules" [ref=e63] [cursor=pointer]:
+                - /url: /detection
+            - listitem [ref=e69]:
+              - link "Detection Catalog" [ref=e70] [cursor=pointer]:
+                - /url: /detection/catalog
+            - listitem [ref=e75]:
+              - link "MITRE Coverage" [ref=e76] [cursor=pointer]:
+                - /url: /detection/coverage
+            - listitem [ref=e81]:
+              - link "Detection Tuning" [ref=e82] [cursor=pointer]:
+                - /url: /detection/tuning
+            - listitem [ref=e87]:
+              - link "Shifts" [ref=e88] [cursor=pointer]:
+                - /url: /shifts
+        - generic [ref=e93]:
+          - paragraph [ref=e94]: Intelligence
+          - list [ref=e95]:
+            - listitem [ref=e96]:
+              - link "Threat Intel" [ref=e97] [cursor=pointer]:
+                - /url: /threat-intel
+            - listitem [ref=e102]:
+              - link "Attack Graph" [ref=e103] [cursor=pointer]:
+                - /url: /graph
+            - listitem [ref=e111]:
+              - link "AI Copilot" [ref=e112] [cursor=pointer]:
+                - /url: /copilot
+            - listitem [ref=e117]:
+              - link "Investigation Chat" [ref=e118] [cursor=pointer]:
+                - /url: /investigate
+            - listitem [ref=e123]:
+              - link "Coverage Advisor" [ref=e124] [cursor=pointer]:
+                - /url: /coverage-advisor
+            - listitem [ref=e129]:
+              - link "EASM" [ref=e130] [cursor=pointer]:
+                - /url: /easm
+        - generic [ref=e135]:
+          - paragraph [ref=e136]: Automation
+          - list [ref=e137]:
+            - listitem [ref=e138]:
+              - link "Playbooks" [ref=e139] [cursor=pointer]:
+                - /url: /playbooks
+            - listitem [ref=e144]:
+              - link "Marketplace" [ref=e145] [cursor=pointer]:
+                - /url: /marketplace
+            - listitem [ref=e150]:
+              - link "File Integrity (FIM)" [ref=e151] [cursor=pointer]:
+                - /url: /fim
+            - listitem [ref=e156]:
+              - link "Honeytokens" [ref=e157] [cursor=pointer]:
+                - /url: /honeytokens
+            - listitem [ref=e163]:
+              - link "Purple Team" [ref=e164] [cursor=pointer]:
+                - /url: /purple-team
+        - generic [ref=e169]:
+          - paragraph [ref=e170]: Platform
+          - list [ref=e171]:
+            - listitem [ref=e172]:
+              - link "Get started" [ref=e173] [cursor=pointer]:
+                - /url: /onboarding
+            - listitem [ref=e178]:
+              - link "Connectors" [ref=e179] [cursor=pointer]:
+                - /url: /connectors
+            - listitem [ref=e184]:
+              - link "Roles & Permissions" [ref=e185] [cursor=pointer]:
+                - /url: /settings/rbac
+            - listitem [ref=e190]:
+              - link "Compliance" [ref=e191] [cursor=pointer]:
+                - /url: /compliance
+            - listitem [ref=e196]:
+              - link "MSSP Dashboard" [ref=e197] [cursor=pointer]:
+                - /url: /mssp
+            - listitem [ref=e202]:
+              - link "Team Analytics" [ref=e203] [cursor=pointer]:
+                - /url: /analytics/team
+            - listitem [ref=e208]:
+              - link "SLA Tracking" [ref=e209] [cursor=pointer]:
+                - /url: /sla
+            - listitem [ref=e214]:
+              - link "Executive Digest" [ref=e215] [cursor=pointer]:
+                - /url: /reports/digest
+            - listitem [ref=e220]:
+              - link "Cost Dashboard" [ref=e221] [cursor=pointer]:
+                - /url: /costs
+            - listitem [ref=e226]:
+              - link "Audit Log" [ref=e227] [cursor=pointer]:
+                - /url: /audit
+            - listitem [ref=e233]:
+              - link "Settings" [ref=e234] [cursor=pointer]:
+                - /url: /settings
+      - generic [ref=e241]:
+        - generic [ref=e242]: v7.7.0
+        - generic [ref=e243]: ·
+        - link "MIT License" [ref=e244] [cursor=pointer]:
+          - /url: https://github.com/aisoc/aisoc
+    - generic [ref=e245]:
+      - banner [ref=e246]:
+        - generic [ref=e247]:
+          - heading "Dashboard" [level=1] [ref=e248]
+          - paragraph [ref=e249]: SOC overview and metrics
+        - button "Open command palette" [ref=e251]:
+          - generic [ref=e254]: Search alerts, cases, rules, or run a command…
+          - generic: ⌘K
+        - generic [ref=e255]:
+          - 'button "Time window: Last 24 hours" [ref=e258]':
+            - generic [ref=e261]: 24h
+          - generic "Loading tenant" [ref=e265]: Loading…
+          - button "Switch to light theme" [ref=e269]:
+            - generic [ref=e272]: Dark theme
+          - button "Open notifications" [ref=e273]
+          - generic [ref=e277] [cursor=pointer]: SO
+      - main [ref=e279]:
+        - generic [ref=e281]:
+          - 'generic "Dashboard widget: welcome"':
+            - button "Drag to reorder" [ref=e282]: ⠿
+          - 'generic "Dashboard widget: funnel-kpis" [ref=e283]':
+            - button "Drag to reorder" [ref=e284]: ⠿
+            - generic [ref=e285]:
+              - generic [ref=e286]:
+                - heading "Operations Funnel" [level=2] [ref=e287]
+                - generic [ref=e288]: Last 24h
+              - generic [ref=e289]:
+                - paragraph [ref=e291]: Events of Interest
+                - paragraph [ref=e295]: Correlation Instances
+                - paragraph [ref=e299]: Alerts Generated
+                - paragraph [ref=e303]: Signal / Noise
+                - paragraph [ref=e307]: MTTD
+                - paragraph [ref=e311]: Analyst Queue
+          - 'generic "Dashboard widget: efficiency-and-pipeline" [ref=e314]':
+            - button "Drag to reorder" [ref=e315]: ⠿
+            - generic [ref=e316]:
+              - generic [ref=e317]:
+                - generic [ref=e318]:
+                  - generic [ref=e319]:
+                    - heading "Efficiency Report" [level=2] [ref=e320]
+                    - paragraph [ref=e321]: How well raw signal converts to actionable alerts
+                  - generic [ref=e322]: Last 24h
+                - generic [ref=e323]:
+                  - paragraph [ref=e326]: Correlation efficiency
+                  - paragraph [ref=e331]: Alert yield
+                  - paragraph [ref=e336]: MITRE coverage
+              - generic [ref=e339]:
+                - generic [ref=e340]:
+                  - generic [ref=e341]:
+                    - heading "Pipeline Health" [level=2] [ref=e342]
+                    - paragraph [ref=e343]: Ingest → normalize → fuse → correlate → alert
+                  - generic [ref=e344]: Live
+                - generic [ref=e345]:
+                  - generic [ref=e346]:
+                    - paragraph [ref=e348]: Ingest
+                    - paragraph [ref=e350]: Connector → raw events
+                  - generic [ref=e355]:
+                    - paragraph [ref=e357]: Normalize
+                    - paragraph [ref=e359]: OCSF mapping
+                  - generic [ref=e364]:
+                    - paragraph [ref=e366]: Fuse
+                    - paragraph [ref=e368]: Alert fusion
+                  - generic [ref=e373]:
+                    - paragraph [ref=e375]: Correlate
+                    - paragraph [ref=e377]: Cross-source correlation
+                  - generic [ref=e382]:
+                    - paragraph [ref=e384]: Alert
+                    - paragraph [ref=e386]: Final alert emission
+          - 'generic "Dashboard widget: top-metrics" [ref=e391]':
+            - button "Drag to reorder" [ref=e392]: ⠿
+            - generic [ref=e393]:
+              - generic [ref=e395]:
+                - heading "Security Operations Center" [level=2] [ref=e396]
+                - paragraph [ref=e397]: Entity-risk alerting, confidence-scored triage, and 6 connected sources
+              - generic [ref=e398]:
+                - generic [ref=e399]:
+                  - generic [ref=e400]:
+                    - paragraph [ref=e401]: Active Alerts
+                    - paragraph [ref=e402]: "1247"
+                    - paragraph [ref=e403]: 89 new today
+                  - generic [ref=e404]:
+                    - generic [ref=e405]: +12%
+                    - generic [ref=e406]: vs yesterday
+                - generic [ref=e407]:
+                  - generic [ref=e408]:
+                    - paragraph [ref=e409]: Critical
+                    - paragraph [ref=e410]: "12"
+                    - paragraph [ref=e411]: Require immediate action
+                  - generic [ref=e412]:
+                    - generic [ref=e413]: "-3%"
+                    - generic [ref=e414]: vs yesterday
+                - generic [ref=e416]:
+                  - paragraph [ref=e417]: Open Cases
+                  - paragraph [ref=e418]: "23"
+                  - paragraph [ref=e419]: 15 in progress
+                - generic [ref=e420]:
+                  - generic [ref=e421]:
+                    - paragraph [ref=e422]: MTTR
+                    - paragraph [ref=e423]: 42m
+                    - paragraph [ref=e424]: Mean time to resolve
+                  - generic [ref=e425]:
+                    - generic [ref=e426]: "-8%"
+                    - generic [ref=e427]: vs last week
+                - generic [ref=e429]:
+                  - paragraph [ref=e430]: Connected Sources
+                  - paragraph [ref=e431]: "6"
+                  - paragraph [ref=e432]: EDR, SIEM, Cloud, IAM, SaaS
+          - 'generic "Dashboard widget: charts-row" [ref=e433]':
+            - button "Drag to reorder" [ref=e434]: ⠿
+            - generic [ref=e435]:
+              - generic [ref=e437]:
+                - heading "Alert Volume (24h)" [level=3] [ref=e438]
+                - generic [ref=e439]: Last 24 hours
+              - generic [ref=e441]:
+                - heading "Severity Breakdown" [level=3] [ref=e442]
+                - generic [ref=e444]:
+                  - generic [ref=e445]:
+                    - generic [ref=e446]: Critical
+                    - generic [ref=e449]: "12"
+                  - generic [ref=e450]:
+                    - generic [ref=e451]: High
+                    - generic [ref=e454]: "43"
+                  - generic [ref=e455]:
+                    - generic [ref=e456]: Medium
+                    - generic [ref=e459]: "156"
+                  - generic [ref=e460]:
+                    - generic [ref=e461]: Low
+                    - generic [ref=e464]: "289"
+                  - generic [ref=e465]:
+                    - generic [ref=e466]: Info
+                    - generic [ref=e469]: "0"
+          - 'generic "Dashboard widget: bottom-row" [ref=e470]':
+            - button "Drag to reorder" [ref=e471]: ⠿
+            - generic [ref=e472]:
+              - heading "Top MITRE ATT&CK Tactics" [level=3] [ref=e474]
+              - generic [ref=e476]:
+                - heading "Connected Sources" [level=3] [ref=e477]
+                - generic [ref=e478]:
+                  - generic [ref=e480]:
+                    - generic [ref=e481]: CrowdStrike EDR
+                    - generic [ref=e484]: "412"
+                  - generic [ref=e488]:
+                    - generic [ref=e489]: Microsoft Sentinel
+                    - generic [ref=e492]: "287"
+                  - generic [ref=e496]:
+                    - generic [ref=e497]: AWS CloudTrail
+                    - generic [ref=e500]: "198"
+                  - generic [ref=e504]:
+                    - generic [ref=e505]: Okta Identity
+                    - generic [ref=e508]: "163"
+                  - generic [ref=e512]:
+                    - generic [ref=e513]: Google Workspace
+                    - generic [ref=e516]: "107"
+                  - generic [ref=e520]:
+                    - generic [ref=e521]: GitHub Audit
+                    - generic [ref=e524]: "84"
+              - generic [ref=e527]:
+                - generic [ref=e528]:
+                  - heading "Live Feed" [level=3] [ref=e529]
+                  - 'generic "WebSocket: connecting" [ref=e531]': Connecting…
+                - generic [ref=e532]:
+                  - generic [ref=e533]:
+                    - generic [ref=e534]: CRIT
+                    - generic [ref=e535]:
+                      - paragraph [ref=e536]: Ransomware indicators detected on DESKTOP-7892
+                      - paragraph [ref=e537]: CrowdStrike · 8s ago
+                  - generic [ref=e538]:
+                    - generic [ref=e539]: HIGH
+                    - generic [ref=e540]:
+                      - paragraph [ref=e541]: "Impossible travel: admin login from US then RU within 4 min"
+                      - paragraph [ref=e542]: Okta · 16s ago
+                  - generic [ref=e543]:
+                    - generic [ref=e544]: HIGH
+                    - generic [ref=e545]:
+                      - paragraph [ref=e546]: IAM role assumed from untrusted account 319…847
+                      - paragraph [ref=e547]: AWS CloudTrail · 24s ago
+                  - generic [ref=e548]:
+                    - generic [ref=e549]: MEDI
+                    - generic [ref=e550]:
+                      - paragraph [ref=e551]: OAuth app granted Mail.ReadWrite across 37 mailboxes
+                      - paragraph [ref=e552]: Microsoft 365 · 32s ago
+                  - generic [ref=e553]:
+                    - generic [ref=e554]: MEDI
+                    - generic [ref=e555]:
+                      - paragraph [ref=e556]: Anomalous GCS bucket policy change in prod project
+                      - paragraph [ref=e557]: GCP SCC · 40s ago
+                  - generic [ref=e558]:
+                    - generic [ref=e559]: LOW
+                    - generic [ref=e560]:
+                      - paragraph [ref=e561]: New deploy key added to private repo infra-terraform
+                      - paragraph [ref=e562]: GitHub Audit · 48s ago
+                  - generic [ref=e563]:
+                    - generic [ref=e564]: LOW
+                    - generic [ref=e565]:
+                      - paragraph [ref=e566]: SPL federated search matched 12 indicators across Splunk
+                      - paragraph [ref=e567]: Sentinel · 56s ago
+          - 'generic "Dashboard widget: soc-performance" [ref=e568]':
+            - button "Drag to reorder" [ref=e569]: ⠿
+            - generic [ref=e570]:
+              - generic [ref=e572]:
+                - heading "SOC Performance" [level=2] [ref=e573]
+                - paragraph [ref=e574]: Outcome metrics, agent calibration, and technique coverage. Auto-computed every 30s.
+              - generic [ref=e575]:
+                - generic [ref=e576]:
+                  - heading "SOC Performance Metrics" [level=2] [ref=e577]
+                  - button "Refresh" [ref=e578]
+                - generic [ref=e579]:
+                  - generic [ref=e580]:
+                    - generic [ref=e581]: MTTD
+                    - generic [ref=e582]: 1.4hrs
+                  - generic [ref=e583]:
+                    - generic [ref=e584]: MTTR
+                    - generic [ref=e585]: 6.2hrs
+                  - generic [ref=e586]:
+                    - generic [ref=e587]: MTTC
+                    - generic [ref=e588]: 14.8hrs
+                  - generic [ref=e589]:
+                    - generic [ref=e590]: Escalation Rate
+                    - generic [ref=e591]: 18.0%
+                  - generic [ref=e592]:
+                    - generic [ref=e593]: False Positive Rate
+                    - generic [ref=e594]: 12.0%
+                  - generic [ref=e595]:
+                    - generic [ref=e596]: Alert Volume (7d)
+                    - generic [ref=e597]: "1247"
+                  - generic [ref=e598]:
+                    - generic [ref=e599]: Cases Opened (7d)
+                    - generic [ref=e600]: "23"
+                  - generic [ref=e601]:
+                    - generic [ref=e602]: Cases Closed (7d)
+                    - generic [ref=e603]: "34"
+                  - generic [ref=e604]:
+                    - generic [ref=e605]: Analyst Overrides (7d)
+                    - generic [ref=e606]: "8"
+                - generic [ref=e607]:
+                  - heading "Agent Confidence Calibration (7d)" [level=3] [ref=e608]
+                  - paragraph [ref=e609]: Predicted confidence vs. actual true-positive rate. Diagonal alignment indicates well-calibrated confidence.
+                  - generic [ref=e610]:
+                    - generic [ref=e611]:
+                      - generic [ref=e612]: Confidence Bin
+                      - generic [ref=e613]: Predicted vs Actual TP Rate
+                      - generic [ref=e614]: Actual
+                      - generic [ref=e615]: "N"
+                    - generic "Predicted 0-20%; actual TP rate 8.0%; 48 samples" [ref=e616]:
+                      - generic [ref=e617]: 0-20%
+                      - generic [ref=e621]: 8.0%
+                      - generic [ref=e622]: "48"
+                    - generic "Predicted 20-40%; actual TP rate 31.0%; 62 samples" [ref=e623]:
+                      - generic [ref=e624]: 20-40%
+                      - generic [ref=e628]: 31.0%
+                      - generic [ref=e629]: "62"
+                    - generic "Predicted 40-60%; actual TP rate 52.0%; 85 samples" [ref=e630]:
+                      - generic [ref=e631]: 40-60%
+                      - generic [ref=e635]: 52.0%
+                      - generic [ref=e636]: "85"
+                    - generic "Predicted 60-80%; actual TP rate 71.0%; 73 samples" [ref=e637]:
+                      - generic [ref=e638]: 60-80%
+                      - generic [ref=e642]: 71.0%
+                      - generic [ref=e643]: "73"
+                    - generic "Predicted 80-100%; actual TP rate 88.0%; 41 samples" [ref=e644]:
+                      - generic [ref=e645]: 80-100%
+                      - generic [ref=e649]: 88.0%
+                      - generic [ref=e650]: "41"
+                - generic [ref=e651]:
+                  - heading "ATT&CK Technique Heatmap" [level=3] [ref=e652]
+                  - generic [ref=e653]:
+                    - generic [ref=e654]:
+                      - generic [ref=e655]: Execution
+                      - generic [ref=e656]:
+                        - 'generic "T1059 Command & Scripting: 42 alerts" [ref=e657]':
+                          - text: T1059 Command & Scripting
+                          - generic [ref=e658]: (42)
+                        - 'generic "T1204 User Execution: 18 alerts" [ref=e659]':
+                          - text: T1204 User Execution
+                          - generic [ref=e660]: (18)
+                    - generic [ref=e661]:
+                      - generic [ref=e662]: Defense Evasion
+                      - generic [ref=e663]:
+                        - 'generic "T1027 Obfuscated Files: 31 alerts" [ref=e664]':
+                          - text: T1027 Obfuscated Files
+                          - generic [ref=e665]: (31)
+                        - 'generic "T1070 Indicator Removal: 14 alerts" [ref=e666]':
+                          - text: T1070 Indicator Removal
+                          - generic [ref=e667]: (14)
+                    - generic [ref=e668]:
+                      - generic [ref=e669]: Credential Access
+                      - generic [ref=e670]:
+                        - 'generic "T1003 OS Credential Dumping: 22 alerts" [ref=e671]':
+                          - text: T1003 OS Credential Dumping
+                          - generic [ref=e672]: (22)
+                        - 'generic "T1110 Brute Force: 9 alerts" [ref=e673]':
+                          - text: T1110 Brute Force
+                          - generic [ref=e674]: (9)
+                    - generic [ref=e675]:
+                      - generic [ref=e676]: Lateral Movement
+                      - 'generic "T1021 Remote Services: 17 alerts" [ref=e678]':
+                        - text: T1021 Remote Services
+                        - generic [ref=e679]: (17)
+                    - generic [ref=e680]:
+                      - generic [ref=e681]: Command and Control
+                      - generic [ref=e682]:
+                        - 'generic "T1071 Application Layer: 26 alerts" [ref=e683]':
+                          - text: T1071 Application Layer
+                          - generic [ref=e684]: (26)
+                        - 'generic "T1105 Ingress Tool Transfer: 11 alerts" [ref=e685]':
+                          - text: T1105 Ingress Tool Transfer
+                          - generic [ref=e686]: (11)
+                    - generic [ref=e687]:
+                      - generic [ref=e688]: Exfiltration
+                      - 'generic "T1048 Exfiltration Over Alt Protocol: 7 alerts" [ref=e690]':
+                        - text: T1048 Exfiltration Over Alt Protocol
+                        - generic [ref=e691]: (7)
+                    - generic [ref=e692]:
+                      - generic [ref=e693]: Initial Access
+                      - 'generic "T1566 Phishing: 35 alerts" [ref=e695]':
+                        - text: T1566 Phishing
+                        - generic [ref=e696]: (35)
+                    - generic [ref=e697]:
+                      - generic [ref=e698]: Persistence
+                      - 'generic "T1053 Scheduled Task/Job: 19 alerts" [ref=e700]':
+                        - text: T1053 Scheduled Task/Job
+                        - generic [ref=e701]: (19)
+                - generic [ref=e702]:
+                  - generic [ref=e703]:
+                    - heading "Investigation Cost Telemetry (30d)" [level=3] [ref=e704]
+                    - generic [ref=e705]: Tokens · Latency · Spend per model, aggregated across runs
+                  - paragraph [ref=e706]: Source of truth for TCO transparency. Per-run breakdowns are available on each investigation detail view.
+                  - generic [ref=e707]:
+                    - generic [ref=e708]:
+                      - generic [ref=e709]:
+                        - generic [ref=e710]: Total Spend
+                        - generic [ref=e711]: $76.65
+                      - generic [ref=e712]:
+                        - generic [ref=e713]: Runs
+                        - generic [ref=e714]: "1037"
+                      - generic [ref=e715]:
+                        - generic [ref=e716]: LLM Calls
+                        - generic [ref=e717]: "5910"
+                      - generic [ref=e718]:
+                        - generic [ref=e719]: Avg $/Run
+                        - generic [ref=e720]: $0.0739
+                      - generic [ref=e721]:
+                        - generic [ref=e722]: Avg Latency/Call
+                        - generic [ref=e723]: 2.52s
+                    - table [ref=e725]:
+                      - rowgroup [ref=e726]:
+                        - row [ref=e727]:
+                          - columnheader "Model" [ref=e728]
+                          - columnheader "Runs" [ref=e729]
+                          - columnheader "Calls" [ref=e730]
+                          - columnheader "Prompt Tokens" [ref=e731]
+                          - columnheader "Completion Tokens" [ref=e732]
+                          - columnheader "Spend" [ref=e733]
+                          - columnheader "Share" [ref=e734]
+                      - rowgroup [ref=e735]:
+                        - row [ref=e736]:
+                          - cell "gpt-4o" [ref=e737]
+                          - cell "312" [ref=e738]
+                          - cell "1840" [ref=e739]
+                          - cell "4.6M" [ref=e740]
+                          - cell "890.0K" [ref=e741]
+                          - cell "$42.18" [ref=e742]
+                          - cell [ref=e743]
+                        - row [ref=e746]:
+                          - cell "gpt-4o-mini" [ref=e747]
+                          - cell "580" [ref=e748]
+                          - cell "3200" [ref=e749]
+                          - cell "2.1M" [ref=e750]
+                          - cell "620.0K" [ref=e751]
+                          - cell "$4.86" [ref=e752]
+                          - cell [ref=e753]
+                        - row [ref=e756]:
+                          - cell "claude-3.5-sonnet" [ref=e757]
+                          - cell "145" [ref=e758]
+                          - cell "870" [ref=e759]
+                          - cell "3.5M" [ref=e760]
+                          - cell "710.0K" [ref=e761]
+                          - cell "$29.61" [ref=e762]
+                          - cell [ref=e763]
+  - button "Open Next.js Dev Tools" [ref=e771] [cursor=pointer]

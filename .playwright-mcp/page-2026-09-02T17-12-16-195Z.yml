@@ -1,0 +1,282 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e2]:
+    - complementary "Application sidebar" [ref=f1e3]:
+      - generic [ref=f1e4]:
+        - generic [ref=f1e9]:
+          - text: AiSOC
+          - paragraph [ref=f1e10]: open-source
+        - generic [ref=f1e13]: Live
+      - navigation "Main navigation" [ref=f1e14]:
+        - list [ref=f1e16]:
+          - listitem [ref=f1e17]:
+            - link "Dashboard" [ref=f1e18] [cursor=pointer]:
+              - /url: /dashboard
+          - listitem [ref=f1e23]:
+            - link "SOC Insights" [ref=f1e24] [cursor=pointer]:
+              - /url: /dashboards/soc-insights
+        - generic [ref=f1e29]:
+          - paragraph [ref=f1e30]: Threat Operations
+          - list [ref=f1e31]:
+            - listitem [ref=f1e32]:
+              - link "Alerts" [ref=f1e33] [cursor=pointer]:
+                - /url: /alerts
+            - listitem [ref=f1e38]:
+              - link "Investigation Queue" [ref=f1e39] [cursor=pointer]:
+                - /url: /queue
+            - listitem [ref=f1e44]:
+              - link "Cases" [ref=f1e45] [cursor=pointer]:
+                - /url: /cases
+            - listitem [ref=f1e50]:
+              - link "Hunt" [ref=f1e51] [cursor=pointer]:
+                - /url: /hunt
+            - listitem [ref=f1e56]:
+              - link "Explore" [ref=f1e57] [cursor=pointer]:
+                - /url: /explore
+            - listitem [ref=f1e62]:
+              - link "Detection Rules" [ref=f1e63] [cursor=pointer]:
+                - /url: /detection
+            - listitem [ref=f1e69]:
+              - link "Detection Catalog" [ref=f1e70] [cursor=pointer]:
+                - /url: /detection/catalog
+            - listitem [ref=f1e75]:
+              - link "MITRE Coverage" [ref=f1e76] [cursor=pointer]:
+                - /url: /detection/coverage
+            - listitem [ref=f1e81]:
+              - link "Detection Tuning" [ref=f1e82] [cursor=pointer]:
+                - /url: /detection/tuning
+            - listitem [ref=f1e87]:
+              - link "Shifts" [ref=f1e88] [cursor=pointer]:
+                - /url: /shifts
+        - generic [ref=f1e93]:
+          - paragraph [ref=f1e94]: Intelligence
+          - list [ref=f1e95]:
+            - listitem [ref=f1e96]:
+              - link "Threat Intel" [ref=f1e97] [cursor=pointer]:
+                - /url: /threat-intel
+            - listitem [ref=f1e102]:
+              - link "Attack Graph" [ref=f1e103] [cursor=pointer]:
+                - /url: /graph
+            - listitem [ref=f1e111]:
+              - link "AI Copilot" [ref=f1e112] [cursor=pointer]:
+                - /url: /copilot
+            - listitem [ref=f1e117]:
+              - link "Investigation Chat" [ref=f1e118] [cursor=pointer]:
+                - /url: /investigate
+            - listitem [ref=f1e123]:
+              - link "Coverage Advisor" [ref=f1e124] [cursor=pointer]:
+                - /url: /coverage-advisor
+            - listitem [ref=f1e129]:
+              - link "EASM" [ref=f1e130] [cursor=pointer]:
+                - /url: /easm
+        - generic [ref=f1e135]:
+          - paragraph [ref=f1e136]: Automation
+          - list [ref=f1e137]:
+            - listitem [ref=f1e138]:
+              - link "Playbooks" [ref=f1e139] [cursor=pointer]:
+                - /url: /playbooks
+            - listitem [ref=f1e144]:
+              - link "Marketplace" [ref=f1e145] [cursor=pointer]:
+                - /url: /marketplace
+            - listitem [ref=f1e150]:
+              - link "File Integrity (FIM)" [ref=f1e151] [cursor=pointer]:
+                - /url: /fim
+            - listitem [ref=f1e156]:
+              - link "Honeytokens" [ref=f1e157] [cursor=pointer]:
+                - /url: /honeytokens
+            - listitem [ref=f1e163]:
+              - link "Purple Team" [ref=f1e164] [cursor=pointer]:
+                - /url: /purple-team
+        - generic [ref=f1e169]:
+          - paragraph [ref=f1e170]: Platform
+          - list [ref=f1e171]:
+            - listitem [ref=f1e172]:
+              - link "Get started" [ref=f1e173] [cursor=pointer]:
+                - /url: /onboarding
+            - listitem [ref=f1e178]:
+              - link "Connectors" [ref=f1e179] [cursor=pointer]:
+                - /url: /connectors
+            - listitem [ref=f1e184]:
+              - link "Roles & Permissions" [ref=f1e185] [cursor=pointer]:
+                - /url: /settings/rbac
+            - listitem [ref=f1e190]:
+              - link "Compliance" [ref=f1e191] [cursor=pointer]:
+                - /url: /compliance
+            - listitem [ref=f1e196]:
+              - link "MSSP Dashboard" [ref=f1e197] [cursor=pointer]:
+                - /url: /mssp
+            - listitem [ref=f1e202]:
+              - link "Team Analytics" [ref=f1e203] [cursor=pointer]:
+                - /url: /analytics/team
+            - listitem [ref=f1e208]:
+              - link "SLA Tracking" [ref=f1e209] [cursor=pointer]:
+                - /url: /sla
+            - listitem [ref=f1e214]:
+              - link "Executive Digest" [ref=f1e215] [cursor=pointer]:
+                - /url: /reports/digest
+            - listitem [ref=f1e220]:
+              - link "Cost Dashboard" [ref=f1e221] [cursor=pointer]:
+                - /url: /costs
+            - listitem [ref=f1e226]:
+              - link "Audit Log" [ref=f1e227] [cursor=pointer]:
+                - /url: /audit
+            - listitem [ref=f1e233]:
+              - link "Settings" [ref=f1e234] [cursor=pointer]:
+                - /url: /settings
+      - generic [ref=f1e241]:
+        - generic [ref=f1e242]: v7.7.0
+        - generic [ref=f1e243]: ·
+        - link "MIT License" [ref=f1e244] [cursor=pointer]:
+          - /url: https://github.com/aisoc/aisoc
+    - generic [ref=f1e245]:
+      - banner [ref=f1e246]:
+        - generic [ref=f1e247]:
+          - heading "Alerts" [level=1] [ref=f1e248]
+          - paragraph [ref=f1e249]: Security alerts and incidents
+        - button "Open command palette" [ref=f1e251]:
+          - generic [ref=f1e254]: Search alerts, cases, rules, or run a command…
+          - generic: ⌘K
+        - generic [ref=f1e255]:
+          - 'button "Time window: Last 24 hours" [ref=f1e258]':
+            - generic [ref=f1e261]: 24h
+          - generic "Loading tenant" [ref=f1e265]: Loading…
+          - generic [ref=f1e269]: User
+          - generic [ref=f1e273]:
+            - paragraph [ref=f1e274]: —
+            - paragraph
+          - button "Switch to light theme" [ref=f1e275]:
+            - generic [ref=f1e278]: Dark theme
+          - button "Open notifications" [ref=f1e279]
+          - generic [ref=f1e283] [cursor=pointer]:
+            - generic [ref=f1e284]: SO
+            - generic [ref=f1e285]:
+              - paragraph [ref=f1e286]: SOC Analyst
+              - paragraph [ref=f1e287]: Admin
+      - main [ref=f1e288]:
+        - generic [ref=f1e290]:
+          - generic [ref=f1e291]:
+            - generic [ref=f1e292]:
+              - heading "Alerts" [level=1] [ref=f1e293]
+              - paragraph [ref=f1e294]: Risk-Based Alerting · entity-centric triage queue
+            - generic [ref=f1e295]:
+              - tablist "View mode" [ref=f1e296]:
+                - tab "Entities" [selected] [ref=f1e297]
+                - tab "Alerts" [ref=f1e298]
+              - generic [ref=f1e299]:
+                - button "+ Create Alert" [disabled] [ref=f1e300]
+                - generic [ref=f1e301]: Planned for v1.1
+          - generic [ref=f1e302]:
+            - generic [ref=f1e303]:
+              - generic [ref=f1e304]:
+                - paragraph [ref=f1e305]: Active entities
+                - paragraph [ref=f1e306]: "5"
+                - paragraph [ref=f1e307]: threshold 80 pts
+              - generic [ref=f1e308]:
+                - paragraph [ref=f1e309]: Promoted
+                - paragraph [ref=f1e310]: "2"
+                - paragraph [ref=f1e311]: entity-incidents
+              - generic [ref=f1e312]:
+                - paragraph [ref=f1e313]: Contributing alerts
+                - paragraph [ref=f1e314]: "26"
+                - paragraph [ref=f1e315]: current decay window
+              - generic [ref=f1e316]:
+                - paragraph [ref=f1e317]: Alert → Incident
+                - paragraph [ref=f1e318]: 13.0:1
+                - paragraph [ref=f1e319]: 2026 bar ≥ 50:1 ↑
+            - generic [ref=f1e320]:
+              - generic [ref=f1e321]:
+                - button "All entities" [ref=f1e322]
+                - button "Promoted only" [ref=f1e323]
+              - generic [ref=f1e324]: 5 shown
+            - generic [ref=f1e325]:
+              - generic [ref=f1e326]:
+                - generic [ref=f1e327]: ENTITY
+                - generic [ref=f1e328]: RISK
+                - generic [ref=f1e329]: BAND
+              - generic [ref=f1e330]:
+                - button "User jsmith@acme.corp Promoted 8 alerts · 2 3 2 1 · last seen 4 months ago 92 Critical" [ref=f1e331]:
+                  - generic [aria-hidden] [ref=f1e332]: 👤
+                  - generic [ref=f1e333]:
+                    - generic [ref=f1e334]:
+                      - generic [ref=f1e335]: User
+                      - generic [ref=f1e336]: jsmith@acme.corp
+                      - generic [ref=f1e337]: Promoted
+                    - generic [ref=f1e338]:
+                      - generic [ref=f1e339]: 8 alerts
+                      - generic [ref=f1e340]: ·
+                      - generic [ref=f1e341]:
+                        - generic "2 critical" [ref=f1e342]: "2"
+                        - generic "3 high" [ref=f1e344]: "3"
+                        - generic "2 medium" [ref=f1e346]: "2"
+                        - generic "1 low" [ref=f1e348]: "1"
+                      - generic [ref=f1e350]: ·
+                      - generic [ref=f1e351]: last seen 4 months ago
+                  - generic [ref=f1e352]: "92"
+                  - generic [ref=f1e356]: Critical
+                - button "Host WS-PROD-042 5 alerts · 1 2 2 · last seen 4 months ago 78 High" [ref=f1e357]:
+                  - generic [aria-hidden] [ref=f1e358]: 🖥️
+                  - generic [ref=f1e359]:
+                    - generic [ref=f1e360]:
+                      - generic [ref=f1e361]: Host
+                      - generic [ref=f1e362]: WS-PROD-042
+                    - generic [ref=f1e363]:
+                      - generic [ref=f1e364]: 5 alerts
+                      - generic [ref=f1e365]: ·
+                      - generic [ref=f1e366]:
+                        - generic "1 critical" [ref=f1e367]: "1"
+                        - generic "2 high" [ref=f1e369]: "2"
+                        - generic "2 medium" [ref=f1e371]: "2"
+                      - generic [ref=f1e373]: ·
+                      - generic [ref=f1e374]: last seen 4 months ago
+                  - generic [ref=f1e375]: "78"
+                  - generic [ref=f1e379]: High
+                - button "IP 198.51.100.42 4 alerts · 1 3 · last seen 4 months ago 65 High" [ref=f1e380]:
+                  - generic [aria-hidden] [ref=f1e381]: 🌐
+                  - generic [ref=f1e382]:
+                    - generic [ref=f1e383]:
+                      - generic [ref=f1e384]: IP
+                      - generic [ref=f1e385]: 198.51.100.42
+                    - generic [ref=f1e386]:
+                      - generic [ref=f1e387]: 4 alerts
+                      - generic [ref=f1e388]: ·
+                      - generic [ref=f1e389]:
+                        - generic "1 high" [ref=f1e390]: "1"
+                        - generic "3 medium" [ref=f1e392]: "3"
+                      - generic [ref=f1e394]: ·
+                      - generic [ref=f1e395]: last seen 4 months ago
+                  - generic [ref=f1e396]: "65"
+                  - generic [ref=f1e400]: High
+                - button "Domain updates.evil-cdn.xyz Promoted 6 alerts · 1 3 2 · last seen 4 months ago 89 Critical" [ref=f1e401]:
+                  - generic [aria-hidden] [ref=f1e402]: 🔗
+                  - generic [ref=f1e403]:
+                    - generic [ref=f1e404]:
+                      - generic [ref=f1e405]: Domain
+                      - generic [ref=f1e406]: updates.evil-cdn.xyz
+                      - generic [ref=f1e407]: Promoted
+                    - generic [ref=f1e408]:
+                      - generic [ref=f1e409]: 6 alerts
+                      - generic [ref=f1e410]: ·
+                      - generic [ref=f1e411]:
+                        - generic "1 critical" [ref=f1e412]: "1"
+                        - generic "3 high" [ref=f1e414]: "3"
+                        - generic "2 medium" [ref=f1e416]: "2"
+                      - generic [ref=f1e418]: ·
+                      - generic [ref=f1e419]: last seen 4 months ago
+                  - generic [ref=f1e420]: "89"
+                  - generic [ref=f1e424]: Critical
+                - button "User admin@partner.co 3 alerts · 2 1 · last seen 4 months ago 45 Medium" [ref=f1e425]:
+                  - generic [aria-hidden] [ref=f1e426]: 👤
+                  - generic [ref=f1e427]:
+                    - generic [ref=f1e428]:
+                      - generic [ref=f1e429]: User
+                      - generic [ref=f1e430]: admin@partner.co
+                    - generic [ref=f1e431]:
+                      - generic [ref=f1e432]: 3 alerts
+                      - generic [ref=f1e433]: ·
+                      - generic [ref=f1e434]:
+                        - generic "2 medium" [ref=f1e435]: "2"
+                        - generic "1 low" [ref=f1e437]: "1"
+                      - generic [ref=f1e439]: ·
+                      - generic [ref=f1e440]: last seen 4 months ago
+                  - generic [ref=f1e441]: "45"
+                  - generic [ref=f1e445]: Medium
+  - button "Open Next.js Dev Tools" [ref=f1e451] [cursor=pointer]
