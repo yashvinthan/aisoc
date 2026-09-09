@@ -1,0 +1,200 @@
+- generic [active] [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - complementary "Application sidebar" [ref=f2e3]:
+      - generic [ref=f2e4]:
+        - generic [ref=f2e9]:
+          - text: AiSOC
+          - paragraph [ref=f2e10]: open-source
+        - generic [ref=f2e13]: Live
+      - navigation "Main navigation" [ref=f2e14]:
+        - list [ref=f2e16]:
+          - listitem [ref=f2e17]:
+            - link "Dashboard" [ref=f2e18] [cursor=pointer]:
+              - /url: /dashboard
+          - listitem [ref=f2e23]:
+            - link "SOC Insights" [ref=f2e24] [cursor=pointer]:
+              - /url: /dashboards/soc-insights
+        - generic [ref=f2e29]:
+          - paragraph [ref=f2e30]: Threat Operations
+          - list [ref=f2e31]:
+            - listitem [ref=f2e32]:
+              - link "Alerts" [ref=f2e33] [cursor=pointer]:
+                - /url: /alerts
+            - listitem [ref=f2e38]:
+              - link "Investigation Queue" [ref=f2e39] [cursor=pointer]:
+                - /url: /queue
+            - listitem [ref=f2e44]:
+              - link "Cases" [ref=f2e45] [cursor=pointer]:
+                - /url: /cases
+            - listitem [ref=f2e50]:
+              - link "Hunt" [ref=f2e51] [cursor=pointer]:
+                - /url: /hunt
+            - listitem [ref=f2e56]:
+              - link "Explore" [ref=f2e57] [cursor=pointer]:
+                - /url: /explore
+            - listitem [ref=f2e62]:
+              - link "Detection Rules" [ref=f2e63] [cursor=pointer]:
+                - /url: /detection
+            - listitem [ref=f2e69]:
+              - link "Detection Catalog" [ref=f2e70] [cursor=pointer]:
+                - /url: /detection/catalog
+            - listitem [ref=f2e75]:
+              - link "MITRE Coverage" [ref=f2e76] [cursor=pointer]:
+                - /url: /detection/coverage
+            - listitem [ref=f2e81]:
+              - link "Detection Tuning" [ref=f2e82] [cursor=pointer]:
+                - /url: /detection/tuning
+            - listitem [ref=f2e87]:
+              - link "Shifts" [ref=f2e88] [cursor=pointer]:
+                - /url: /shifts
+        - generic [ref=f2e93]:
+          - paragraph [ref=f2e94]: Intelligence
+          - list [ref=f2e95]:
+            - listitem [ref=f2e96]:
+              - link "Threat Intel" [ref=f2e97] [cursor=pointer]:
+                - /url: /threat-intel
+            - listitem [ref=f2e102]:
+              - link "Attack Graph" [ref=f2e103] [cursor=pointer]:
+                - /url: /graph
+            - listitem [ref=f2e111]:
+              - link "AI Copilot" [ref=f2e112] [cursor=pointer]:
+                - /url: /copilot
+            - listitem [ref=f2e117]:
+              - link "Investigation Chat" [ref=f2e118] [cursor=pointer]:
+                - /url: /investigate
+            - listitem [ref=f2e123]:
+              - link "Coverage Advisor" [ref=f2e124] [cursor=pointer]:
+                - /url: /coverage-advisor
+            - listitem [ref=f2e129]:
+              - link "EASM" [ref=f2e130] [cursor=pointer]:
+                - /url: /easm
+        - generic [ref=f2e135]:
+          - paragraph [ref=f2e136]: Automation
+          - list [ref=f2e137]:
+            - listitem [ref=f2e138]:
+              - link "Playbooks" [ref=f2e139] [cursor=pointer]:
+                - /url: /playbooks
+            - listitem [ref=f2e144]:
+              - link "Marketplace" [ref=f2e145] [cursor=pointer]:
+                - /url: /marketplace
+            - listitem [ref=f2e150]:
+              - link "File Integrity (FIM)" [ref=f2e151] [cursor=pointer]:
+                - /url: /fim
+            - listitem [ref=f2e156]:
+              - link "Honeytokens" [ref=f2e157] [cursor=pointer]:
+                - /url: /honeytokens
+            - listitem [ref=f2e163]:
+              - link "Purple Team" [ref=f2e164] [cursor=pointer]:
+                - /url: /purple-team
+        - generic [ref=f2e169]:
+          - paragraph [ref=f2e170]: Platform
+          - list [ref=f2e171]:
+            - listitem [ref=f2e172]:
+              - link "Get started" [ref=f2e173] [cursor=pointer]:
+                - /url: /onboarding
+            - listitem [ref=f2e178]:
+              - link "Connectors" [ref=f2e179] [cursor=pointer]:
+                - /url: /connectors
+            - listitem [ref=f2e184]:
+              - link "Roles & Permissions" [ref=f2e185] [cursor=pointer]:
+                - /url: /settings/rbac
+            - listitem [ref=f2e190]:
+              - link "Compliance" [ref=f2e191] [cursor=pointer]:
+                - /url: /compliance
+            - listitem [ref=f2e196]:
+              - link "MSSP Dashboard" [ref=f2e197] [cursor=pointer]:
+                - /url: /mssp
+            - listitem [ref=f2e202]:
+              - link "Team Analytics" [ref=f2e203] [cursor=pointer]:
+                - /url: /analytics/team
+            - listitem [ref=f2e208]:
+              - link "SLA Tracking" [ref=f2e209] [cursor=pointer]:
+                - /url: /sla
+            - listitem [ref=f2e214]:
+              - link "Executive Digest" [ref=f2e215] [cursor=pointer]:
+                - /url: /reports/digest
+            - listitem [ref=f2e220]:
+              - link "Cost Dashboard" [ref=f2e221] [cursor=pointer]:
+                - /url: /costs
+            - listitem [ref=f2e226]:
+              - link "Audit Log" [ref=f2e227] [cursor=pointer]:
+                - /url: /audit
+            - listitem [ref=f2e233]:
+              - link "Settings" [ref=f2e234] [cursor=pointer]:
+                - /url: /settings
+      - generic [ref=f2e241]:
+        - generic [ref=f2e242]: v7.7.0
+        - generic [ref=f2e243]: ·
+        - link "MIT License" [ref=f2e244] [cursor=pointer]:
+          - /url: https://github.com/aisoc/aisoc
+    - generic [ref=f2e245]:
+      - banner [ref=f2e246]:
+        - generic [ref=f2e247]:
+          - heading "Threat Hunting" [level=1] [ref=f2e248]
+          - paragraph [ref=f2e249]: Proactive threat hunts and queries
+        - button "Open command palette" [ref=f2e251]:
+          - generic [ref=f2e254]: Search alerts, cases, rules, or run a command…
+          - generic: ⌘K
+        - generic [ref=f2e255]:
+          - 'button "Time window: Last 24 hours" [ref=f2e258]':
+            - generic [ref=f2e261]: 24h
+          - generic "Loading tenant" [ref=f2e265]: Loading…
+          - generic [ref=f2e269]: User
+          - generic [ref=f2e273]:
+            - paragraph [ref=f2e274]: —
+            - paragraph
+          - button "Switch to light theme" [ref=f2e275]:
+            - generic [ref=f2e278]: Dark theme
+          - button "Open notifications" [ref=f2e279]
+          - generic [ref=f2e283] [cursor=pointer]:
+            - generic [ref=f2e284]: SO
+            - generic [ref=f2e285]:
+              - paragraph [ref=f2e286]: SOC Analyst
+              - paragraph [ref=f2e287]: Admin
+      - main [ref=f2e288]:
+        - generic [ref=f2e290]:
+          - generic [ref=f2e291]:
+            - generic [ref=f2e292]: AiSOC Hunt
+            - heading "Hunt at the speed of thought." [level=1] [ref=f2e295]
+            - paragraph [ref=f2e296]: Ask in plain English and we'll translate it to ES|QL, KQL, and SPL. Save the questions that matter, schedule the ones that should run themselves.
+            - generic [ref=f2e297]:
+              - generic [ref=f2e298]: Ask a security question
+              - textbox "Ask a security question" [ref=f2e300]:
+                - /placeholder: e.g. Show me suspicious sudo from contractors in the last 4 hours
+              - button "Translate & run →" [disabled] [ref=f2e301]
+            - generic [ref=f2e302]:
+              - generic [ref=f2e303]: Try one of these
+              - generic [ref=f2e304]:
+                - button "Did we get any new attacks from Iran?" [ref=f2e305]
+                - button "Show me everyone who touched our prod IAM role in the last 7 days" [ref=f2e307]
+                - button "Any GitHub auth from a new device this week?" [ref=f2e309]
+          - generic [ref=f2e311]:
+            - complementary [ref=f2e312]:
+              - generic [ref=f2e314]:
+                - heading "Saved hunts" [level=3] [ref=f2e315]
+                - button "+ Ask" [ref=f2e316]
+              - generic [ref=f2e319]:
+                - heading "Saved searches" [level=3] [ref=f2e320]
+                - button "+ New" [ref=f2e321]
+            - generic [ref=f2e323]:
+              - generic [ref=f2e325]:
+                - generic [ref=f2e326]:
+                  - button "KQL" [ref=f2e327]
+                  - button "Lucene" [ref=f2e328]
+                  - button "SQL" [ref=f2e329]
+                  - button "ES|QL" [ref=f2e330]
+                - combobox [ref=f2e334]:
+                  - option "Last 15 min"
+                  - option "Last hour"
+                  - option "Last 24 hours" [selected]
+                  - option "Last 7 days"
+                  - option "Last 30 days"
+                - generic [ref=f2e335]:
+                  - button "Save" [ref=f2e336]
+                  - button "▶ Run hunt" [ref=f2e337]
+              - generic [ref=f2e340]:
+                - heading "Hunt results" [level=3] [ref=f2e342]
+                - status [ref=f2e343]:
+                  - heading "Press Run to begin" [level=3] [ref=f2e344]
+                  - paragraph [ref=f2e345]: "Tip: ask a question above, pick a saved hunt, or pivot from an alert."
+  - button "Open Next.js Dev Tools" [ref=f2e351] [cursor=pointer]
