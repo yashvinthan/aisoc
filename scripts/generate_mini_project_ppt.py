@@ -729,7 +729,7 @@ def create_deck():
     add_card(s19, Inches(2.5), Inches(3.8), Inches(8.333), Inches(2.8), "AiSOC PROJECT REPOSITORY & CONTACTS")
     contact_info = [
         ("Project Architecture", "Autonomous Multi-Agent SOC Platform (Open Source MIT License)"),
-        ("Live Interactive Demo", "tryaisoc.com/dashboard"),
+        ("Live Interactive Demo", "http://localhost:3000/dashboard (Local Deployment)"),
         ("Team Members", "Yashvinthan M (231061101162) | Tharun Kumar D (231061101150)"),
         ("Team Members", "Sanjeev V (231061101140) | Srinithi J S (231061101149)"),
         ("Department", "Department of Computer Science and Engineering, Faculty of Engg & Tech")

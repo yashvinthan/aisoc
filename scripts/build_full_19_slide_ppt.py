@@ -730,7 +730,7 @@ def build_presentation():
     add_card(s20, Inches(2.0), Inches(3.6), Inches(9.333), Inches(3.2), "AiSOC PROJECT REPOSITORY & DEMONSTRATION ACCESS")
     demo_details = [
         ("Project Core", "Autonomous Multi-Agent SOC Architecture (Open Source MIT License)"),
-        ("Live Interactive Demo", "tryaisoc.com/dashboard  (Active Multi-Tenant Web Console)"),
+        ("Live Interactive Demo", "http://localhost:3000/dashboard  (Active Local Web Console)"),
         ("Instant Cold-Start Demo", "pip install aisoc-sandbox && aisoc-sandbox demo  (<30 seconds offline)"),
         ("Team Contact", "Yashvinthan M (231061101162) | Tharun Kumar D (231061101150)"),
         ("Team Contact", "Sanjeev V (231061101140) | Srinithi J S (231061101149)"),

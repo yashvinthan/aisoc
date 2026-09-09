@@ -1000,9 +1000,9 @@ def build_presentation():
     add_card(s20, Inches(1.5), Inches(3.1), Inches(10.333), Inches(3.8), "AiSOC PROJECT REPOSITORY & LIVE DEMONSTRATION ACCESS", title_color=ACCENT_BLUE, corner_radius=0.03)
     demo_details = [
         ("Project Architecture", "AiSOC: Autonomous AI-Powered Security Operations Center (Open Source MIT License)"),
-        ("Live Interactive Web Console", "tryaisoc.com/dashboard  (Active Multi-Tenant Web Console)"),
-        ("Instant Offline Sandbox Demo", "pip install aisoc-sandbox && aisoc-sandbox demo  (<30s cold-start execution)"),
-        ("Complete Project Documentation", "tryaisoc.com/docs  (Architecture, Graph Schema & Connector Guides)"),
+        ("Live Interactive Web Console", "http://localhost:3000/dashboard  (Local Next.js + FastAPI Console)"),
+        ("Instant Offline Sandbox Demo", "pip install aisoc-sandbox && aisoc-sandbox demo  (<30s local execution)"),
+        ("Complete Project Documentation", "Local Architecture Docs, Graph Schema & Connector Guides (docs/)"),
         ("Team Members & Register Nos", "Yashvinthan M (231061101162) | Tharun Kumar D (231061101150) | Sanjeev V (231061101140) | Srinithi J S (231061101149)"),
         ("Department & College", "Department of Computer Science and Engineering, Dr. M.G.R. Educational and Research Institute")
     ]
